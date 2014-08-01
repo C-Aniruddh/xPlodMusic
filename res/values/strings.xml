@@ -128,11 +128,11 @@
     <string name="widget_style_dark">Holo Dark</string>
     <string name="widget_style_light">Holo Light</string>
     <string name="about_apollomod_title">About xPlodMusic</string>
-    <string name="about_apollomod_message"><![CDATA[xPlodMusic is a closed source music player based on CyanogenMod\'s Apollo Music Player.\n\n
+    <string name="about_apollomod_message"><![CDATA[xPlodMusic is an Open source music player based on CyanogenMod\'s Apollo Music Player.\n\n
 Apollo License Link:\n
         http://www.apache.org/licenses/LICENSE-2.0.html \n\n
 Original Apollo Source Code: \n
-https://github.com/CyanogenMod/android_packages_apps_Apollo/tree/cm-10.1\n\n
+https://github.com/CyanogenMod/android_packages_apps_Apollo\n\n
 
 App designed and updated by Aniruddh Chandratre.\n\n
 
