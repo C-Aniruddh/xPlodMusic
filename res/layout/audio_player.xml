@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <RelativeLayout
+        android:id="@+id/audio_player_album_art_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/black" >
+		    
+	    <android.support.v4.view.ViewPager
+	        android:id="@+id/now_playing_viewpager"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:windowContentOverlay="@null"/>	
+        
+   	 	<include layout="@layout/shadow" />
+   	 	
+        <com.aniruddhc.xPlod.ui.widgets.VisualizerView
+            android:id="@+id/visualizerView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/audio_player_text_border" />
+       
+   </RelativeLayout>
+   <RelativeLayout
+        android:id="@+id/audio_player_queue_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/background_grey"
+        android:visibility="gone" >
+   </RelativeLayout>
+    
+    <FrameLayout 
+	    android:id="@+id/colorstrip_bottom"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/colorstrip_height"
+        android:background="@color/holo_blue_dark" />
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/colorstrip_height"
+	    android:background="@drawable/colorstrip_shadow" 
+	    />		
+    <include layout="@layout/audio_controls" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/header_interface" >
+        <MultiSelectListPreference
+	        android:dialogTitle="@string/tab_visibility_title"
+	        android:key="@string/key_tabs_enabled"
+	        android:summary="@string/tab_visibility_summary"        
+	        android:title="@string/tab_visibility_title"
+	        android:entries="@array/tab_titles"
+	        android:entryValues="@array/tab_titles"
+	        android:defaultValue="@array/tab_titles"
+	        android:capitalize="words"
+	        />
+        <ListPreference 
+	        android:dialogTitle="@string/visualizer_title"
+            android:key="@string/key_visualization_type"
+            android:title="@string/visualizer_title"
+            android:summary="@string/visualizer_summary"
+            android:defaultValue="@string/visual_none" 
+            android:entries="@array/visualization_types"
+            android:entryValues="@array/visualization_types"
+	        android:capitalize="words"
+        	/>  
+        	
+        <ListPreference 
+	        android:dialogTitle="@string/widget_style_title"
+            android:key="@string/key_widget_style"
+            android:title="@string/widget_style_title"
+            android:summary="@string/widget_style_summary"
+            android:defaultValue="@string/widget_style_light" 
+            android:entries="@array/widget_style_types"
+            android:entryValues="@array/widget_style_types"
+	        android:capitalize="words"
+        	/>  		        
+    </PreferenceCategory>    
+    <PreferenceCategory android:title="@string/settings_storage_category" >
+
+        <!-- Delete cache -->
+        <Preference
+            android:key="@string/key_delete_cache"
+            android:summary="@string/settings_delete_cache_summary"
+            android:title="@string/settings_delete_cache_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about" >
+        <Preference
+            android:key="@string/key_build_version"
+            android:summary="@string/app_version_number"
+            android:title="@string/version" />
+        <Preference
+            android:key="@string/key_build_depends"
+            android:title="@string/dependencies" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

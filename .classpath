@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="E:/1/Music/ApolloMod/libs/android-support-v4.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/AndroidSlidingUpPanel"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/drag-sort-listview"/>
+	<classpathentry exported="true" kind="lib" path="libs/android-query-0.21.7.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="libs/systembartint-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/1/Music/Apollo-Tint/libs/libGoogleAnalyticsServices.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/1/Music/Apollo-Tint/libs/libGoogleAnalytics.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/updatechecker"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
